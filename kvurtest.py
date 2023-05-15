@@ -1,4 +1,4 @@
-import math
+from math import sqrt
 
 baddata = True
 while baddata == True:
@@ -17,7 +17,7 @@ D = ( b * b) - ( 4 * a * c )
 
 if D > 0:
       print('Два корня')
-      d = math.sqrt(D)
+      d = sqrt(D)
       x1 = ((-b) + d)/ (2 * a)
       x2 = ((-b) - d)/ (2 * a)
 
