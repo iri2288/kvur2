@@ -1,8 +1,12 @@
-a = int(input('Введите a:'))
+baddata = True
+while baddata == True:
+    try:
+        a = int(input('Введите a:'))
 
-b = int(input('Введите b:'))
+        b = int(input('Введите b:'))
 
-c = int(input('Введите c:'))
+        c = int(input('Введите c:'))
+        baddata = False
+    except:
 
-print(type(a))
-print(a+b)10
+         print('Не удалось получить данные!')
