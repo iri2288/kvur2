@@ -1,7 +1,7 @@
 from math import sqrt
 
 baddata = True
-while baddata == True:
+while baddata:
     try:
         a = int(input('Введите a:'))
 
@@ -9,7 +9,7 @@ while baddata == True:
 
         c = int(input('Введите c:'))
         baddata = False
-    except:
+    except ValueError:
 
          print('Не удалось получить данные!')
 
