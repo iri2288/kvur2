@@ -1,2 +1,2 @@
 a = input ('a')
-b = input ('b')
+с = input ('с')
